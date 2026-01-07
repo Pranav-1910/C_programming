@@ -22,10 +22,10 @@ int main()
     }
     else if(o == '/')
     {
-        printf("divition = %.1f",a/b);
+        printf("division = %.1f",a/b);
     }
     else
     {
-        printf("invalide");
+        printf("invalid");
     }
 }
