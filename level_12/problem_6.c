@@ -1,13 +1,31 @@
-//design a 50 digit calculator program to perform addition ,subtraction and multiplication
-//the question need to be passed as a single string with the operator 
-//like 40+5
-//it should give a prompt like this on input ("calc>")
-//test case 
-//calc>40+50
-//90
-//Exit as input needs to quit the program 
-#include<string.h>
-#include<stdio.h>
-void sub(char *a,char *b){
-    for
+#include <stdio.h>
+int main()
+{
+    float a,b;
+    char o;
+    printf("Enter a number 1 : ");
+    scanf("%f",&a);
+    printf("Enter a number 2 : ");
+    scanf("%f",&b);
+    printf("Enter an operator : ");
+    scanf("\n %c",&o);
+    if(o == '+'){
+        printf("sum = %.0f",a+b);
+    }
+    else if(o == '-')
+    {
+        printf("difference = %.0f",a-b);
+    }
+    else if(o == '*')
+    {
+        printf("product = %.0f",a*b);
+    }
+    else if(o == '/')
+    {
+        printf("divition = %.1f",a/b);
+    }
+    else
+    {
+        printf("invalide");
+    }
 }
